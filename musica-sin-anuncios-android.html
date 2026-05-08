@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Música Sin Anuncios en Android — App Gratis 2026 | ARMORY</title>
+  <meta name="description" content="¿Cansado de los anuncios en tu música? Descubre cómo escuchar música online gratis sin anuncios en Android con ARMORY. APK gratuita, sin suscripción." />
+  <meta name="keywords" content="música sin anuncios android, escuchar música gratis sin anuncios, app música sin publicidad android, reproductor música offline android gratis" />
+  <link rel="canonical" href="https://armory31.github.io/musica-sin-anuncios-android" />
+  <meta property="og:title" content="Música Sin Anuncios en Android — ARMORY" />
+  <meta property="og:description" content="Escucha música online gratis sin anuncios en Android. ARMORY es la app gratuita que elimina los anuncios para siempre." />
+  <meta property="og:url" content="https://armory31.github.io/musica-sin-anuncios-android" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root { --negro: #050505; --dorado: #d4af37; --blanco: #f5f5f5; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--negro); color: var(--blanco); line-height: 1.7; overflow-x: hidden; }
+    a { text-decoration: none; color: inherit; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+
+    header { padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(212,175,55,0.15); max-width: 1100px; margin: 0 auto; }
+    .logo { font-family: 'Orbitron', sans-serif; font-size: 1.1rem; font-weight: 900; letter-spacing: 2px; color: var(--dorado); }
+    .nav-home { font-size: 0.8rem; color: #666; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
+    .nav-home:hover { color: var(--dorado); }
+
+    .hero { padding: 6rem 0 4rem; text-align: center; }
+    .hero-tag { display: inline-block; border: 1px solid rgba(212,175,55,0.4); color: var(--dorado); font-family: 'Orbitron', sans-serif; font-size: 0.7rem; letter-spacing: 3px; padding: 0.4rem 1rem; margin-bottom: 2rem; text-transform: uppercase; }
+    .hero h1 { font-family: 'Orbitron', sans-serif; font-size: clamp(2rem, 6vw, 4.5rem); font-weight: 900; line-height: 1.1; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 span { color: var(--dorado); }
+    .hero p { color: #a0a0a0; font-size: 1.1rem; max-width: 600px; margin: 0 auto 2.5rem; }
+    .btn { display: inline-block; padding: 1rem 3rem; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; border: 1px solid var(--dorado); transition: all 0.3s; cursor: pointer; }
+    .btn-gold { background: var(--dorado); color: var(--negro); }
+    .btn-gold:hover { background: transparent; color: var(--dorado); }
+    .btn-outline { background: transparent; color: var(--dorado); margin-left: 1rem; }
+    .btn-outline:hover { background: var(--dorado); color: var(--negro); }
+
+    .problem { padding: 5rem 0; border-top: 1px solid rgba(212,175,55,0.1); }
+    .section-label { font-family: 'Orbitron', sans-serif; font-size: 0.7rem; letter-spacing: 4px; color: var(--dorado); text-transform: uppercase; margin-bottom: 1rem; }
+    .section-title { font-family: 'Orbitron', sans-serif; font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 700; text-transform: uppercase; line-height: 1.1; margin-bottom: 1.5rem; }
+    .section-desc { color: #a0a0a0; font-size: 1rem; max-width: 600px; line-height: 1.8; }
+
+    .problems-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 3rem; }
+    .problem-card { background: #0a0a0a; border: 1px solid rgba(212,175,55,0.15); padding: 2rem; border-radius: 4px; }
+    .problem-card h3 { font-family: 'Orbitron', sans-serif; font-size: 0.9rem; color: var(--dorado); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.75rem; }
+    .problem-card p { color: #777; font-size: 0.9rem; line-height: 1.7; }
+
+    .solution { padding: 5rem 0; border-top: 1px solid rgba(212,175,55,0.1); background: #080808; }
+    .solution-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; margin-top: 3rem; }
+    .solution-features { display: flex; flex-direction: column; gap: 1.5rem; }
+    .feature { display: flex; gap: 1rem; align-items: flex-start; }
+    .feature-dot { width: 2rem; height: 2rem; background: var(--dorado); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-size: 0.7rem; font-weight: 900; color: var(--negro); }
+    .feature-text h4 { font-family: 'Orbitron', sans-serif; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.4rem; }
+    .feature-text p { color: #777; font-size: 0.875rem; }
+    .solution-cta { background: #0a0a0a; border: 1px solid rgba(212,175,55,0.2); padding: 3rem; text-align: center; }
+    .solution-cta h3 { font-family: 'Orbitron', sans-serif; font-size: 1.5rem; text-transform: uppercase; margin-bottom: 1rem; }
+    .solution-cta p { color: #777; font-size: 0.9rem; margin-bottom: 2rem; }
+
+    .how { padding: 5rem 0; border-top: 1px solid rgba(212,175,55,0.1); }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem; }
+    .step { text-align: center; padding: 2rem; }
+    .step-num { font-family: 'Orbitron', sans-serif; font-size: 3rem; font-weight: 900; color: rgba(212,175,55,0.2); line-height: 1; margin-bottom: 1rem; }
+    .step h3 { font-family: 'Orbitron', sans-serif; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.75rem; color: var(--dorado); }
+    .step p { color: #777; font-size: 0.875rem; }
+
+    .faq { padding: 5rem 0; border-top: 1px solid rgba(212,175,55,0.1); max-width: 700px; margin: 0 auto; }
+    .faq-title { font-family: 'Orbitron', sans-serif; font-size: clamp(1.5rem, 3vw, 2.5rem); text-transform: uppercase; text-align: center; margin-bottom: 3rem; }
+    .faq-item { border-bottom: 1px solid rgba(212,175,55,0.15); }
+    .faq-q { width: 100%; background: none; border: none; color: var(--blanco); font-size: 0.95rem; text-align: left; padding: 1.25rem 0; cursor: pointer; display: flex; justify-content: space-between; gap: 1rem; transition: color 0.3s; font-family: 'Inter', sans-serif; }
+    .faq-q:hover { color: var(--dorado); }
+    .faq-chevron { width: 1rem; height: 1rem; flex-shrink: 0; transition: transform 0.3s; fill: none; stroke: currentColor; stroke-width: 2.5; }
+    .faq-item.open .faq-chevron { transform: rotate(180deg); }
+    .faq-item.open .faq-q { color: var(--dorado); }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+    .faq-a-inner { color: #777; font-size: 0.9rem; padding-bottom: 1.25rem; line-height: 1.7; }
+    .faq-item.open .faq-a { max-height: 200px; }
+
+    .cta-final { padding: 8rem 0; text-align: center; border-top: 1px solid rgba(212,175,55,0.1); }
+    .cta-final h2 { font-family: 'Orbitron', sans-serif; font-size: clamp(2rem, 5vw, 4rem); text-transform: uppercase; line-height: 1.1; margin-bottom: 2rem; }
+    .cta-final h2 span { color: var(--dorado); }
+    .cta-final p { color: #777; margin-bottom: 2.5rem; }
+
+    .marquee { overflow: hidden; border-top: 1px solid rgba(212,175,55,0.15); border-bottom: 1px solid rgba(212,175,55,0.15); padding: 1rem 0; }
+    .marquee-inner { display: inline-block; white-space: nowrap; animation: scroll 25s linear infinite; font-family: 'Orbitron', sans-serif; font-size: 0.8rem; letter-spacing: 3px; color: rgba(212,175,55,0.4); text-transform: uppercase; }
+    .marquee-inner span { margin: 0 3rem; }
+    @keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+    footer { padding: 2.5rem 2rem; border-top: 1px solid rgba(212,175,55,0.1); max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .footer-links { display: flex; gap: 2rem; flex-wrap: wrap; }
+    .footer-links a { color: #444; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
+    .footer-links a:hover { color: var(--dorado); }
+    .footer-copy { color: #333; font-size: 0.75rem; }
+
+    @media (max-width: 768px) {
+      .solution-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .steps { grid-template-columns: 1fr; }
+      .btn-outline { margin-left: 0; margin-top: 1rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <a href="https://armory31.github.io" class="logo">ARMORY</a>
+    <a href="https://armory31.github.io" class="nav-home">← Web principal</a>
+  </header>
+</div>
+
+<main>
+  <div class="container">
+    <section class="hero">
+      <div class="hero-tag">Solución 2026 · Android · 100% Gratis</div>
+      <h1>Música sin anuncios<br>en <span>Android</span></h1>
+      <p>Deja de interrumpir tu música cada 3 canciones. ARMORY es la app que elimina los anuncios para siempre, gratis y sin suscripción.</p>
+      <a href="https://armory31.github.io/app-debug.apk" download="ARMORY-v0.8-beta.apk" class="btn btn-gold">Descargar APK Gratis</a>
+      <a href="https://armory31.github.io" class="btn btn-outline">Ver más</a>
+    </section>
+  </div>
+
+  <div class="marquee">
+    <div class="marquee-inner">
+      <span>SIN ANUNCIOS</span><span>STREAMING GRATIS</span><span>ANDROID APK</span><span>SIN SUSCRIPCIÓN</span><span>ALTA CALIDAD</span><span>SIN ANUNCIOS</span><span>STREAMING GRATIS</span><span>ANDROID APK</span><span>SIN SUSCRIPCIÓN</span><span>ALTA CALIDAD</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="problem">
+      <p class="section-label">// El problema</p>
+      <h2 class="section-title">¿Por qué los anuncios<br>arruinan tu música?</h2>
+      <p class="section-desc">Las apps de música gratuitas interrumpen tu experiencia constantemente. Aquí están los problemas más comunes que ARMORY resuelve.</p>
+      <div class="problems-grid">
+        <div class="problem-card">
+          <h3>Anuncios cada 2-3 canciones</h3>
+          <p>Spotify, YouTube Music y similares te interrumpen constantemente con anuncios de audio y vídeo que rompen el flujo de tu música.</p>
+        </div>
+        <div class="problem-card">
+          <h3>Calidad de audio limitada</h3>
+          <p>En el plan gratuito de la mayoría de apps la calidad de streaming es reducida. Con ARMORY siempre tienes la máxima calidad disponible.</p>
+        </div>
+        <div class="problem-card">
+          <h3>Sin control de reproducción</h3>
+          <p>En modo gratuito no puedes elegir qué canción reproducir ni saltarte más de 6 canciones por hora. ARMORY te da control total.</p>
+        </div>
+        <div class="problem-card">
+          <h3>Suscripciones caras</h3>
+          <p>Pagar 10-12€ al mes solo para quitar los anuncios no es justo. ARMORY es completamente gratis, sin ningún tipo de pago.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="solution">
+    <div class="container">
+      <p class="section-label">// La solución</p>
+      <h2 class="section-title">ARMORY elimina<br>los anuncios</h2>
+      <div class="solution-grid">
+        <div class="solution-features">
+          <div class="feature"><div class="feature-dot">01</div><div class="feature-text"><h4>Streaming sin interrupciones</h4><p>Reproduce música online en Android sin un solo anuncio de audio ni vídeo. Para siempre y gratis.</p></div></div>
+          <div class="feature"><div class="feature-dot">02</div><div class="feature-text"><h4>Alta fidelidad de audio</h4><p>Sin anuncios y sin límites de calidad. Escucha tu música en la máxima calidad disponible.</p></div></div>
+          <div class="feature"><div class="feature-dot">03</div><div class="feature-text"><h4>Control total</h4><p>Salta canciones, elige lo que quieres escuchar y crea playlists sin ninguna restricción.</p></div></div>
+          <div class="feature"><div class="feature-dot">04</div><div class="feature-text"><h4>100% gratuito</h4><p>Sin suscripción, sin compras integradas, sin trucos. ARMORY es gratis ahora y siempre.</p></div></div>
+        </div>
+        <div class="solution-cta">
+          <h3>Empieza ahora</h3>
+          <p>Descarga la APK de ARMORY gratis y escucha música sin anuncios desde hoy mismo en tu Android.</p>
+          <a href="https://armory31.github.io/app-debug.apk" download="ARMORY-v0.8-beta.apk" class="btn btn-gold">Descargar APK · v0.8</a>
+          <p style="margin-top:1rem;font-size:0.75rem;color:#444;">30-50 MB · Android · Sin registro obligatorio</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="how">
+      <p class="section-label">// Cómo funciona</p>
+      <h2 class="section-title">En 3 pasos tienes<br>música sin anuncios</h2>
+      <div class="steps">
+        <div class="step"><div class="step-num">01</div><h3>Descarga la APK</h3><p>Descarga el archivo APK de ARMORY gratis desde esta página. Solo 30-50 MB.</p></div>
+        <div class="step"><div class="step-num">02</div><h3>Instala en Android</h3><p>Activa la instalación de fuentes desconocidas en tu Android e instala ARMORY en segundos.</p></div>
+        <div class="step"><div class="step-num">03</div><h3>Escucha sin anuncios</h3><p>Abre ARMORY, crea tu cuenta gratis y empieza a escuchar música online sin un solo anuncio.</p></div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h2 class="faq-title">Preguntas frecuentes</h2>
+      <div class="faq-item"><button class="faq-q">¿ARMORY es realmente gratis y sin anuncios?<svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><div class="faq-a-inner">Sí. ARMORY es 100% gratuito y sin anuncios. No hay suscripción, no hay compras integradas y no hay anuncios de ningún tipo. Gratis ahora y siempre.</div></div></div>
+      <div class="faq-item"><button class="faq-q">¿Es seguro instalar la APK de ARMORY?<svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><div class="faq-a-inner">Sí. La APK de ARMORY es completamente segura. No recoge datos de ubicación, micrófono ni contactos. Solo los datos necesarios para tu cuenta de música.</div></div></div>
+      <div class="faq-item"><button class="faq-q">¿Funciona en todos los Android?<svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><div class="faq-a-inner">ARMORY funciona en Android moderno. Está optimizado para un rendimiento fluido con bajo consumo de batería.</div></div></div>
+      <div class="faq-item"><button class="faq-q">¿Necesito internet para usar ARMORY?<svg class="faq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><div class="faq-a-inner">Sí, ARMORY es un reproductor de música online en streaming. Necesitas conexión a internet para reproducir música.</div></div></div>
+    </section>
+
+    <section class="cta-final">
+      <h2>Escucha música<br><span>sin anuncios hoy</span></h2>
+      <p>Únete a más de 50.000 usuarios que ya disfrutan de música gratis sin interrupciones en Android.</p>
+      <a href="https://armory31.github.io/app-debug.apk" download="ARMORY-v0.8-beta.apk" class="btn btn-gold">Descargar ARMORY Gratis</a>
+    </section>
+  </div>
+</main>
+
+<div class="container">
+  <footer>
+    <div class="footer-links">
+      <a href="https://armory31.github.io">Web principal</a>
+      <a href="https://armory31.github.io/armory-privacidad">Privacidad</a>
+      <a href="https://armory31.github.io/armory-vs-spotify">ARMORY vs Spotify</a>
+      <a href="https://armory31.github.io/alternativas-spotify-android">Alternativas a Spotify</a>
+    </div>
+    <p class="footer-copy">© 2026 ARMORY</p>
+  </footer>
+</div>
+
+<script>
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+</script>
+</body>
+</html>
